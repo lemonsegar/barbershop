@@ -1,0 +1,344 @@
+INFO - 2024-12-21 09:17:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 09:17:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 09:17:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 09:17:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-21 09:17:42 --> ErrorException: Undefined array key "spesialisasi"
+[Method: GET, Route: Karyawan/index]
+in APPPATH\Views\karyawan\v_karyawan.php on line 56.
+ 1 APPPATH\Views\karyawan\v_karyawan.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "spesialisasi"', 'D:\\xammpp\\htdocs\\MBL\\app\\Views\\karyawan\\v_karyawan.php', 56)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\xammpp\\htdocs\\MBL\\app\\Views\\karyawan\\v_karyawan.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('karyawan/v_karyawan', [], true)
+ 5 APPPATH\Controllers\Karyawan.php(12): view('karyawan/v_karyawan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Karyawan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Karyawan))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xammpp\\htdocs\\MBL\\public\\index.php')
+INFO - 2024-12-21 09:17:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-21 09:17:49 --> ErrorException: Undefined array key "no_hp"
+[Method: GET, Route: Pelanggan/index]
+in APPPATH\Views\pelanggan\v_pelanggan.php on line 53.
+ 1 APPPATH\Views\pelanggan\v_pelanggan.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "no_hp"', 'D:\\xammpp\\htdocs\\MBL\\app\\Views\\pelanggan\\v_pelanggan.php', 53)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\xammpp\\htdocs\\MBL\\app\\Views\\pelanggan\\v_pelanggan.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pelanggan/v_pelanggan', [], true)
+ 5 APPPATH\Controllers\Pelanggan.php(12): view('pelanggan/v_pelanggan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pelanggan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pelanggan))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xammpp\\htdocs\\MBL\\public\\index.php')
+INFO - 2024-12-21 09:17:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-12-21 09:17:52 --> mysqli_sql_exception: Table 'db_barber.layanan' doesn't exist in D:\xammpp\htdocs\MBL\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 D:\xammpp\htdocs\MBL\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xammpp\htdocs\MBL\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xammpp\htdocs\MBL\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xammpp\htdocs\MBL\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xammpp\htdocs\MBL\app\Models\ModelLayanan.php(11): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xammpp\htdocs\MBL\app\Controllers\Layanan.php(12): App\Models\ModelLayanan->getLayanan()
+#6 D:\xammpp\htdocs\MBL\system\CodeIgniter.php(933): App\Controllers\Layanan->index()
+#7 D:\xammpp\htdocs\MBL\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Layanan))
+#8 D:\xammpp\htdocs\MBL\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xammpp\htdocs\MBL\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 D:\xammpp\htdocs\MBL\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 D:\xammpp\htdocs\MBL\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 D:\xammpp\htdocs\MBL\system\rewrite.php(44): require_once('D:\\xammpp\\htdoc...')
+#13 {main}
+CRITICAL - 2024-12-21 09:17:53 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'db_barber.layanan' doesn't exist
+[Method: GET, Route: Layanan/index]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `layanan`', [], false)
+ 2 APPPATH\Models\ModelLayanan.php(11): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Layanan.php(12): App\Models\ModelLayanan->getLayanan()
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Layanan->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Layanan))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\xammpp\\htdocs\\MBL\\public\\index.php')
+CRITICAL - 2024-12-21 09:17:53 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'db_barber.layanan' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `layanan`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `layanan`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `layanan`', [], false)
+ 4 APPPATH\Models\ModelLayanan.php(11): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\Layanan.php(12): App\Models\ModelLayanan->getLayanan()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Layanan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Layanan))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xammpp\\htdocs\\MBL\\public\\index.php')
+CRITICAL - 2024-12-21 09:17:53 --> [Caused by] mysqli_sql_exception: Table 'db_barber.layanan' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT *
+FROM `layanan`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `layanan`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `layanan`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `layanan`', [], false)
+ 5 APPPATH\Models\ModelLayanan.php(11): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Layanan.php(12): App\Models\ModelLayanan->getLayanan()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Layanan->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Layanan))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('D:\\xammpp\\htdocs\\MBL\\public\\index.php')
+INFO - 2024-12-21 09:17:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 09:21:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 09:21:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 09:30:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 09:30:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 09:30:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 09:34:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-21 09:34:56 --> ErrorException: Undefined array key "no_hp"
+[Method: GET, Route: Pelanggan/index]
+in APPPATH\Views\pelanggan\v_pelanggan.php on line 55.
+ 1 APPPATH\Views\pelanggan\v_pelanggan.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "no_hp"', 'D:\\xammpp\\htdocs\\MBL\\app\\Views\\pelanggan\\v_pelanggan.php', 55)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\xammpp\\htdocs\\MBL\\app\\Views\\pelanggan\\v_pelanggan.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pelanggan/v_pelanggan', [], true)
+ 5 APPPATH\Controllers\Pelanggan.php(12): view('pelanggan/v_pelanggan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pelanggan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pelanggan))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xammpp\\htdocs\\MBL\\public\\index.php')
+CRITICAL - 2024-12-21 09:35:22 --> ErrorException: Undefined array key "no_hp"
+[Method: GET, Route: Pelanggan/index]
+in APPPATH\Views\pelanggan\v_pelanggan.php on line 55.
+ 1 APPPATH\Views\pelanggan\v_pelanggan.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "no_hp"', 'D:\\xammpp\\htdocs\\MBL\\app\\Views\\pelanggan\\v_pelanggan.php', 55)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\xammpp\\htdocs\\MBL\\app\\Views\\pelanggan\\v_pelanggan.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pelanggan/v_pelanggan', [], true)
+ 5 APPPATH\Controllers\Pelanggan.php(12): view('pelanggan/v_pelanggan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pelanggan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pelanggan))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xammpp\\htdocs\\MBL\\public\\index.php')
+INFO - 2024-12-21 09:35:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 09:35:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 09:35:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 10:01:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 10:01:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 10:59:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 10:59:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 11:00:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 11:00:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 11:00:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 11:00:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 12:02:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 12:02:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 12:02:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-21 12:02:07 --> Error: Class "App\Controllers\ModelPeminjam" not found
+[Method: GET, Route: Booking/index]
+in APPPATH\Controllers\Booking.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Booking->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\xammpp\\htdocs\\MBL\\public\\index.php')
+INFO - 2024-12-21 12:02:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 12:02:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 12:02:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-12-21 12:02:35 --> mysqli_sql_exception: Unknown column 'pelanggan.id_pelanggan' in 'field list' in D:\xammpp\htdocs\MBL\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 D:\xammpp\htdocs\MBL\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `booking...', 0)
+#1 D:\xammpp\htdocs\MBL\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `booking...')
+#2 D:\xammpp\htdocs\MBL\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `booking...')
+#3 D:\xammpp\htdocs\MBL\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `booking...', Array, false)
+#4 D:\xammpp\htdocs\MBL\app\Models\ModelBooking.php(17): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xammpp\htdocs\MBL\app\Controllers\Booking.php(13): App\Models\ModelBooking->getBooking()
+#6 D:\xammpp\htdocs\MBL\system\CodeIgniter.php(933): App\Controllers\Booking->index()
+#7 D:\xammpp\htdocs\MBL\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+#8 D:\xammpp\htdocs\MBL\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xammpp\htdocs\MBL\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 D:\xammpp\htdocs\MBL\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 D:\xammpp\htdocs\MBL\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 D:\xammpp\htdocs\MBL\system\rewrite.php(44): require_once('D:\\xammpp\\htdoc...')
+#13 {main}
+CRITICAL - 2024-12-21 12:02:35 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'pelanggan.id_pelanggan' in 'field list'
+[Method: GET, Route: Booking/index]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `booking`.*, `pelanggan`.`id_pelanggan`, `pelanggan`.`nama`, `pelanggan`.`nohp`, `datamobil`.`noplat`, `datamobil`.`hrgsewa`
+FROM `booking`
+LEFT JOIN `paket` ON `peminjaman`.`idpel` = `pelanggan`.`idpel`
+LEFT JOIN `karyawan` ON `peminjaman`.`idmobil` = `datamobil`.`idmobil`', [], false)
+ 2 APPPATH\Models\ModelBooking.php(17): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Booking.php(13): App\Models\ModelBooking->getBooking()
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Booking->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\xammpp\\htdocs\\MBL\\public\\index.php')
+CRITICAL - 2024-12-21 12:02:35 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'pelanggan.id_pelanggan' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `booking`.*, `pelanggan`.`id_pelanggan`, `pelanggan`.`nama`, `pelanggan`.`nohp`, `datamobil`.`noplat`, `datamobil`.`hrgsewa`
+FROM `booking`
+LEFT JOIN `paket` ON `peminjaman`.`idpel` = `pelanggan`.`idpel`
+LEFT JOIN `karyawan` ON `peminjaman`.`idmobil` = `datamobil`.`idmobil`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `booking`.*, `pelanggan`.`id_pelanggan`, `pelanggan`.`nama`, `pelanggan`.`nohp`, `datamobil`.`noplat`, `datamobil`.`hrgsewa`
+FROM `booking`
+LEFT JOIN `paket` ON `peminjaman`.`idpel` = `pelanggan`.`idpel`
+LEFT JOIN `karyawan` ON `peminjaman`.`idmobil` = `datamobil`.`idmobil`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `booking`.*, `pelanggan`.`id_pelanggan`, `pelanggan`.`nama`, `pelanggan`.`nohp`, `datamobil`.`noplat`, `datamobil`.`hrgsewa`
+FROM `booking`
+LEFT JOIN `paket` ON `peminjaman`.`idpel` = `pelanggan`.`idpel`
+LEFT JOIN `karyawan` ON `peminjaman`.`idmobil` = `datamobil`.`idmobil`', [], false)
+ 4 APPPATH\Models\ModelBooking.php(17): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\Booking.php(13): App\Models\ModelBooking->getBooking()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Booking->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xammpp\\htdocs\\MBL\\public\\index.php')
+CRITICAL - 2024-12-21 12:02:35 --> [Caused by] mysqli_sql_exception: Unknown column 'pelanggan.id_pelanggan' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `booking`.*, `pelanggan`.`id_pelanggan`, `pelanggan`.`nama`, `pelanggan`.`nohp`, `datamobil`.`noplat`, `datamobil`.`hrgsewa`
+FROM `booking`
+LEFT JOIN `paket` ON `peminjaman`.`idpel` = `pelanggan`.`idpel`
+LEFT JOIN `karyawan` ON `peminjaman`.`idmobil` = `datamobil`.`idmobil`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `booking`.*, `pelanggan`.`id_pelanggan`, `pelanggan`.`nama`, `pelanggan`.`nohp`, `datamobil`.`noplat`, `datamobil`.`hrgsewa`
+FROM `booking`
+LEFT JOIN `paket` ON `peminjaman`.`idpel` = `pelanggan`.`idpel`
+LEFT JOIN `karyawan` ON `peminjaman`.`idmobil` = `datamobil`.`idmobil`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `booking`.*, `pelanggan`.`id_pelanggan`, `pelanggan`.`nama`, `pelanggan`.`nohp`, `datamobil`.`noplat`, `datamobil`.`hrgsewa`
+FROM `booking`
+LEFT JOIN `paket` ON `peminjaman`.`idpel` = `pelanggan`.`idpel`
+LEFT JOIN `karyawan` ON `peminjaman`.`idmobil` = `datamobil`.`idmobil`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `booking`.*, `pelanggan`.`id_pelanggan`, `pelanggan`.`nama`, `pelanggan`.`nohp`, `datamobil`.`noplat`, `datamobil`.`hrgsewa`
+FROM `booking`
+LEFT JOIN `paket` ON `peminjaman`.`idpel` = `pelanggan`.`idpel`
+LEFT JOIN `karyawan` ON `peminjaman`.`idmobil` = `datamobil`.`idmobil`', [], false)
+ 5 APPPATH\Models\ModelBooking.php(17): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Booking.php(13): App\Models\ModelBooking->getBooking()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Booking->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('D:\\xammpp\\htdocs\\MBL\\public\\index.php')
+INFO - 2024-12-21 12:10:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 12:10:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 12:10:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 12:10:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-21 12:10:38 --> Error: Call to a member function getResultArray() on array
+[Method: GET, Route: Booking/index]
+in APPPATH\Controllers\Booking.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Booking->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\xammpp\\htdocs\\MBL\\public\\index.php')
+INFO - 2024-12-21 12:15:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 12:15:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 12:15:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-21 12:15:56 --> ErrorException: Undefined variable $data_pel
+[Method: GET, Route: Booking/index]
+in APPPATH\Views\booking\v_booking.php on line 349.
+ 1 APPPATH\Views\booking\v_booking.php(349): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data_pel', 'D:\\xammpp\\htdocs\\MBL\\app\\Views\\booking\\v_booking.php', 349)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\xammpp\\htdocs\\MBL\\app\\Views\\booking\\v_booking.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('booking/v_booking', [], true)
+ 5 APPPATH\Controllers\Booking.php(18): view('booking/v_booking', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Booking->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xammpp\\htdocs\\MBL\\public\\index.php')
+INFO - 2024-12-21 12:23:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 12:23:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 12:23:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-21 12:23:35 --> ErrorException: Undefined array key "idmobil"
+[Method: GET, Route: Booking/index]
+in APPPATH\Views\booking\v_booking.php on line 396.
+ 1 APPPATH\Views\booking\v_booking.php(396): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "idmobil"', 'D:\\xammpp\\htdocs\\MBL\\app\\Views\\booking\\v_booking.php', 396)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\xammpp\\htdocs\\MBL\\app\\Views\\booking\\v_booking.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('booking/v_booking', [], true)
+ 5 APPPATH\Controllers\Booking.php(18): view('booking/v_booking', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Booking->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xammpp\\htdocs\\MBL\\public\\index.php')
+INFO - 2024-12-21 12:24:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 12:25:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 12:25:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 12:25:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-21 12:25:55 --> Error: Call to a member function getResultArray() on array
+[Method: GET, Route: Booking/index]
+in APPPATH\Controllers\Booking.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Booking->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\xammpp\\htdocs\\MBL\\public\\index.php')
+INFO - 2024-12-21 12:27:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-21 12:27:36 --> Error: Call to a member function getResultArray() on array
+[Method: GET, Route: Booking/index]
+in APPPATH\Controllers\Booking.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Booking->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\xammpp\\htdocs\\MBL\\public\\index.php')
+INFO - 2024-12-21 18:28:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 18:28:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 18:28:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 18:28:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-21 18:28:14 --> ErrorException: Undefined variable $data_mobil
+[Method: GET, Route: Booking/index]
+in APPPATH\Views\booking\v_booking.php on line 374.
+ 1 APPPATH\Views\booking\v_booking.php(374): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data_mobil', 'D:\\xammpp\\htdocs\\MBL\\app\\Views\\booking\\v_booking.php', 374)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\xammpp\\htdocs\\MBL\\app\\Views\\booking\\v_booking.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('booking/v_booking', [], true)
+ 5 APPPATH\Controllers\Booking.php(16): view('booking/v_booking', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Booking->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xammpp\\htdocs\\MBL\\public\\index.php')
+INFO - 2024-12-21 18:28:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 18:31:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
