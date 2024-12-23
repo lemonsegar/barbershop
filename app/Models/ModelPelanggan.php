@@ -5,6 +5,10 @@ use CodeIgniter\Model;
 
 class ModelPelanggan extends Model
 {
+    protected $table = 'pelanggan';
+    protected $primaryKey = 'id_pelanggan';
+    protected $allowedFields = ['nama', 'no_hp', 'alamat'];
+
     public function getPelanggan()
     {
       $builder = $this->db->table('pelanggan');

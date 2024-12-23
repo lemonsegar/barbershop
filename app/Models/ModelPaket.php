@@ -5,6 +5,10 @@ use CodeIgniter\Model;
 
 class ModelPaket extends Model
 {
+    protected $table = 'paket';
+    protected $primaryKey = 'id_paket';
+    protected $allowedFields = ['nama_paket', 'jenis_paket', 'harga'];
+
     public function getPaket()
     {
       $builder = $this->db->table('paket');

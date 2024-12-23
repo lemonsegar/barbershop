@@ -47,7 +47,7 @@ class Karyawan extends BaseController
         $model = new ModelKaryawan();
         $id = $this->request->getpost('deleteId');
         $model->deletKaryawan($id);
-        return redirect()->to('/karyawan/index');
+        return redirect()->to('/karyawan');
     }
 
     function update()
@@ -62,7 +62,7 @@ class Karyawan extends BaseController
             'nohp'       => $this->request->getPost('nohp'),
     );
     $model->updatekaryawan($data, $id);
-    return redirect()->to('/karyawan/index');
+    return redirect()->to('/karyawan');
 }
 
 public function formedit($id)
@@ -92,7 +92,7 @@ public function formedit($id)
             ];
 
             session()->setFlashdata($pesan_error);
-            return redirect()->to('karyawan/index');
+            return redirect()->to('karyawan');
         }
     }
 }

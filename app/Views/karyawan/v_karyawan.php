@@ -1,25 +1,9 @@
 <?= $this->extend('layout/main') ?>
-<?= $this->extend('layout/menu') ?>
 
 <?= $this->section('isi') ?>
 
-
-<head>
-
-
-    <link href="<?= base_url() ?>/assets/plugins/datatables/dataTables.bootstrap4.min.css" rel="stylesheet"
-        type="text/css" />
-    <link href="<?= base_url() ?>/assets/plugins/datatables/buttons.bootstrap4.min.css" rel="stylesheet"
-        type="text/css" />
-
-    <script src="<?= base_url() ?>/assets/plugins/datatables/jquery.dataTables.min.js"></script>
-    <script src="<?= base_url() ?>/assets/plugins/datatables/dataTables.bootstrap4.min.js"></script>
-</head>
-
 <div class="col-sm-12">
-    <div class="page-content-wrapper ">
-        <!-- end page title and breadcrumb -->
-
+    <div class="page-content-wrapper">
         <div class="row">
             <div class="col-12">
                 <div class="card m-b-30">
@@ -28,8 +12,9 @@
                     </div>
                     <div class="card-body">
                         <div class="col-md-12">
-                            <button type="button" class="btn btn-sm btn-primary" data-target="#addModalKaryawan"
-                                data-toggle="modal">Tambah Data</button>
+                            <button type="button" class="btn btn-sm btn-primary" data-target="#addModalKaryawan" data-toggle="modal">
+                                Tambah Data
+                            </button>
                         </div>
                         <br>
                         <div id="datatable_wrapper" class="dataTables_wrapper container-fluid dt-bootstrap4 no-footer">
@@ -51,81 +36,69 @@
                                             <?php $no = 0;
                                             foreach ($karyawan as $val) {
                                                 $no++; ?>
-                                            <tr role="row" class="odd">
-                                                <td><?= $no; ?></td>
-                                                <td><?= $val['id_karyawan'] ?></td>
-                                                <td><?= $val['nama_karyawan'] ?></td>
-                                                <td><?= $val['jenkel'] ?></td>
-                                                <td><?= $val['alamat'] ?></td>
-                                                <td><?= $val['nohp'] ?></td>
-                                                <td>
-                                                    <button type="button" class="btn btn-info btn-sm btn-editKaryawan"
-                                                        data-id="<?= $val['id_karyawan']; ?>"
-                                                        data-namakaryawan="<?= $val['nama_karyawan'] ?>"
-                                                        data-jenkel="<?= $val['jenkel'] ?>"
-                                                        data-alamat="<?= $val['alamat'] ?>"
-                                                        data-nohp="<?= $val['nohp'] ?>">
-                                                        <i class="fa fa-tags"></i>
-                                                    </button>
-
-                                                    <button type="button" class="btn btn-danger btn-sm btn-delete"
-                                                        data-target="#deleteModalKaryawan" data-toggle="modal"
-                                                        data-id="<?= $val['id_karyawan']; ?>">
-                                                        <i class="fa fa-trash"></i>
-                                                    </button>
-
-                                                </td>
-                                            </tr>
+                                                <tr role="row" class="odd">
+                                                    <td><?= $no; ?></td>
+                                                    <td><?= $val['id_karyawan'] ?></td>
+                                                    <td><?= $val['nama_karyawan'] ?></td>
+                                                    <td><?= $val['jenkel'] ?></td>
+                                                    <td><?= $val['alamat'] ?></td>
+                                                    <td><?= $val['nohp'] ?></td>
+                                                    <td>
+                                                        <button type="button" class="btn btn-info btn-sm btn-editKaryawan"
+                                                            data-id="<?= $val['id_karyawan']; ?>"
+                                                            data-namakaryawan="<?= $val['nama_karyawan'] ?>"
+                                                            data-jenkel="<?= $val['jenkel'] ?>"
+                                                            data-alamat="<?= $val['alamat'] ?>"
+                                                            data-nohp="<?= $val['nohp'] ?>">
+                                                            <i class="fa fa-tags"></i>
+                                                        </button>
+                                                        <button type="button" class="btn btn-danger btn-sm btn-delete"
+                                                            data-target="#deleteModalKaryawan" data-toggle="modal"
+                                                            data-id="<?= $val['id_karyawan']; ?>">
+                                                            <i class="fa fa-trash"></i>
+                                                        </button>
+                                                    </td>
+                                                </tr>
                                             <?php } ?>
                                         </tbody>
-
                                     </table>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div> <!-- end col -->
-        </div> <!-- end row -->
+            </div>
+        </div>
     </div>
 </div>
 
+<?= $this->endSection() ?>
+<?= $this->section('js') ?>
 
-
-
-
-<script src="<?= base_url() ?>/assets/modules/jquery.min.js"></script>
 <script>
-$(document).ready(function() {
-    $('#datakaryawan').DataTable();
-});
+    $(document).ready(function() {
+        $('#datakaryawan').DataTable();
+    });
 
-// $('.btn-delete').on('click', function() {
-//     const id = $(this).data('id');
-//     $('.id').val(id);
-//     $('#deleteModal').model('show');
-// });
+    $(document).on('click', '.btn-delete', function() {
+        var id = $(this).data('id');
+        $('.id').val(id);
+    });
 
-$(document).on('click', '.btn-delete', function() {
-    var id = $(this).data('id'); // Ambil id dari data-id di tombol
-    $('.id').val(id); // Isi input hidden di modal dengan id yang sesuai
+    $('.btn-editKaryawan').on('click', function() {
+        const id = $(this).data('id');
+        const namakaryawan = $(this).data('namakaryawan');
+        const jenkel = $(this).data('jenkel');
+        const alamat = $(this).data('alamat');
+        const nohp = $(this).data('nohp');
 
-});
-
-//script untuk edit data
-$('.btn-editKaryawan').on('click', function() {
-    const id = $(this).data('id');
-    const namakaryawan = $(this).data('namakaryawan');
-    const jenkel = $(this).data('jenkel');
-    const alamat = $(this).data('alamat');
-    const nohp = $(this).data('nohp');
-
-    $('.id').val(id);
-    $('.namakaryawan').val(namakaryawan);
-    $('.jenkel').val(jenkel);
-    $('.alamat').val(alamat);
-    $('.nohp').val(nohp);
-    $('#editModalKaryawan').modal('show');
-});
+        $('.id').val(id);
+        $('.namakaryawan').val(namakaryawan);
+        $('.jenkel').val(jenkel);
+        $('.alamat').val(alamat);
+        $('.nohp').val(nohp);
+        $('#editModalKaryawan').modal('show');
+    });
 </script>
-<?= $this->endSection('') ?>
+
+<?= $this->endSection() ?>

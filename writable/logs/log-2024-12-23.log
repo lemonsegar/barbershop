@@ -1,0 +1,1445 @@
+INFO - 2024-12-23 08:54:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 08:54:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 08:54:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 08:54:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 08:54:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 08:56:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 08:56:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 08:56:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 08:56:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 08:56:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 08:56:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 08:57:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 08:57:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 08:57:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 08:57:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 08:57:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 09:04:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 09:04:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 09:05:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 09:05:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 09:05:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 09:05:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 09:05:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 09:08:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 09:09:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 09:09:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 09:09:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 09:09:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 09:09:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 09:09:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 09:48:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-23 09:48:35 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "layout/header.php"
+[Method: GET, Route: layout]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/header.php')
+ 2 SYSTEMPATH\View\View.php(487): CodeIgniter\View\View->render('layout/header', null, true)
+ 3 APPPATH\Views\layout\main.php(28): CodeIgniter\View\View->include('layout/header')
+ 4 SYSTEMPATH\View\View.php(234): include('D:\\Rafi Chandra\\Codeigniter4\\barbershop\\app\\Views\\layout\\main.php')
+ 5 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\View\View.php(250): CodeIgniter\View\View->render('layout/main', [], true)
+ 7 SYSTEMPATH\View\View.php(250): CodeIgniter\View\View->render('layout/menu', [], true)
+ 8 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('layout/beranda', [], true)
+ 9 APPPATH\Controllers\Layout.php(8): view('layout/beranda')
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Layout->index()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Layout))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+16 SYSTEMPATH\rewrite.php(44): require_once('D:\\Rafi Chandra\\Codeigniter4\\barbershop\\public\\index.php')
+INFO - 2024-12-23 09:48:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-23 09:49:05 --> ErrorException: Allowed memory size of 536870912 bytes exhausted (tried to allocate 32768 bytes)
+[Method: GET, Route: layout]
+in APPPATH\Views\layout\menu.php on line 1.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-12-23 09:49:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 09:49:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 09:50:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 09:51:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 09:52:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 09:53:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 09:53:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 09:53:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 09:53:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 09:53:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 09:54:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 09:54:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 09:54:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 09:54:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 09:57:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 09:57:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 09:58:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 09:58:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 09:59:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 09:59:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 10:01:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 10:01:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 10:02:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 10:02:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 10:03:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 10:03:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 10:03:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 10:05:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 10:06:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 10:06:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 10:06:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 10:06:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 10:06:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 10:09:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 10:09:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 10:10:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 10:12:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 10:12:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 10:12:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 10:12:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 10:13:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 10:13:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 10:13:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 10:13:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 10:13:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 10:14:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 10:14:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 10:19:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 10:19:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 10:19:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 10:20:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 10:20:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 10:20:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 10:21:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 10:21:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 10:21:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 11:02:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-12-23 11:02:30 --> mysqli_sql_exception: Unknown column 'pelanggan.idpelanggan' in 'on clause' in D:\Rafi Chandra\Codeigniter4\barbershop\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 D:\Rafi Chandra\Codeigniter4\barbershop\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `booking...', 0)
+#1 D:\Rafi Chandra\Codeigniter4\barbershop\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `booking...')
+#2 D:\Rafi Chandra\Codeigniter4\barbershop\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `booking...')
+#3 D:\Rafi Chandra\Codeigniter4\barbershop\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `booking...', Array, false)
+#4 D:\Rafi Chandra\Codeigniter4\barbershop\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Rafi Chandra\Codeigniter4\barbershop\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\Rafi Chandra\Codeigniter4\barbershop\app\Controllers\Booking.php(30): CodeIgniter\BaseModel->findAll()
+#7 D:\Rafi Chandra\Codeigniter4\barbershop\system\CodeIgniter.php(933): App\Controllers\Booking->index()
+#8 D:\Rafi Chandra\Codeigniter4\barbershop\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+#9 D:\Rafi Chandra\Codeigniter4\barbershop\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Rafi Chandra\Codeigniter4\barbershop\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 D:\Rafi Chandra\Codeigniter4\barbershop\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 D:\Rafi Chandra\Codeigniter4\barbershop\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 D:\Rafi Chandra\Codeigniter4\barbershop\system\rewrite.php(44): require_once('D:\\Rafi Chandra...')
+#14 {main}
+CRITICAL - 2024-12-23 11:02:30 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'pelanggan.idpelanggan' in 'on clause'
+[Method: GET, Route: Booking]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `booking`.*, `pelanggan`.`nama` as `nama_pelanggan`, `paket`.`nama_paket`
+FROM `booking`
+JOIN `pelanggan` ON `pelanggan`.`idpelanggan` = `booking`.`id_pelanggan`
+JOIN `paket` ON `paket`.`id_paket` = `booking`.`id_paket`', [], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Booking.php(30): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Booking->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\Rafi Chandra\\Codeigniter4\\barbershop\\public\\index.php')
+CRITICAL - 2024-12-23 11:02:30 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'pelanggan.idpelanggan' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `booking`.*, `pelanggan`.`nama` as `nama_pelanggan`, `paket`.`nama_paket`
+FROM `booking`
+JOIN `pelanggan` ON `pelanggan`.`idpelanggan` = `booking`.`id_pelanggan`
+JOIN `paket` ON `paket`.`id_paket` = `booking`.`id_paket`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `booking`.*, `pelanggan`.`nama` as `nama_pelanggan`, `paket`.`nama_paket`
+FROM `booking`
+JOIN `pelanggan` ON `pelanggan`.`idpelanggan` = `booking`.`id_pelanggan`
+JOIN `paket` ON `paket`.`id_paket` = `booking`.`id_paket`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `booking`.*, `pelanggan`.`nama` as `nama_pelanggan`, `paket`.`nama_paket`
+FROM `booking`
+JOIN `pelanggan` ON `pelanggan`.`idpelanggan` = `booking`.`id_pelanggan`
+JOIN `paket` ON `paket`.`id_paket` = `booking`.`id_paket`', [], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Controllers\Booking.php(30): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Booking->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('D:\\Rafi Chandra\\Codeigniter4\\barbershop\\public\\index.php')
+CRITICAL - 2024-12-23 11:02:30 --> [Caused by] mysqli_sql_exception: Unknown column 'pelanggan.idpelanggan' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `booking`.*, `pelanggan`.`nama` as `nama_pelanggan`, `paket`.`nama_paket`
+FROM `booking`
+JOIN `pelanggan` ON `pelanggan`.`idpelanggan` = `booking`.`id_pelanggan`
+JOIN `paket` ON `paket`.`id_paket` = `booking`.`id_paket`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `booking`.*, `pelanggan`.`nama` as `nama_pelanggan`, `paket`.`nama_paket`
+FROM `booking`
+JOIN `pelanggan` ON `pelanggan`.`idpelanggan` = `booking`.`id_pelanggan`
+JOIN `paket` ON `paket`.`id_paket` = `booking`.`id_paket`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `booking`.*, `pelanggan`.`nama` as `nama_pelanggan`, `paket`.`nama_paket`
+FROM `booking`
+JOIN `pelanggan` ON `pelanggan`.`idpelanggan` = `booking`.`id_pelanggan`
+JOIN `paket` ON `paket`.`id_paket` = `booking`.`id_paket`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `booking`.*, `pelanggan`.`nama` as `nama_pelanggan`, `paket`.`nama_paket`
+FROM `booking`
+JOIN `pelanggan` ON `pelanggan`.`idpelanggan` = `booking`.`id_pelanggan`
+JOIN `paket` ON `paket`.`id_paket` = `booking`.`id_paket`', [], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Booking.php(30): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Booking->index()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('D:\\Rafi Chandra\\Codeigniter4\\barbershop\\public\\index.php')
+INFO - 2024-12-23 11:03:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-23 11:03:01 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "layout/template.php"
+[Method: GET, Route: Booking]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/template.php')
+ 2 SYSTEMPATH\View\View.php(250): CodeIgniter\View\View->render('layout/template', [], true)
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('booking/index', [], true)
+ 4 APPPATH\Controllers\Booking.php(32): view('booking/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Booking->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\Rafi Chandra\\Codeigniter4\\barbershop\\public\\index.php')
+INFO - 2024-12-23 11:03:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 11:03:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 11:04:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 11:07:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-23 11:07:16 --> CodeIgniter\Database\Exceptions\DatabaseException: You must set the database table to be used with your query.
+[Method: GET, Route: booking/create]
+in SYSTEMPATH\Database\BaseConnection.php on line 927.
+ 1 SYSTEMPATH\Model.php(716): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(273): CodeIgniter\Model->builder()
+ 3 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Booking.php(39): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Booking->create()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\Rafi Chandra\\Codeigniter4\\barbershop\\public\\index.php')
+CRITICAL - 2024-12-23 11:07:56 --> Error: Call to undefined function validation_show_error()
+[Method: GET, Route: booking/create]
+in APPPATH\Views\booking\create.php on line 12.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('booking/create', [], true)
+ 4 APPPATH\Controllers\Booking.php(43): view('booking/create', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Booking->create()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\Rafi Chandra\\Codeigniter4\\barbershop\\public\\index.php')
+CRITICAL - 2024-12-23 11:09:45 --> ErrorException: Undefined array key "idpelanggan"
+[Method: GET, Route: booking/create]
+in APPPATH\Views\booking\create.php on line 22.
+ 1 APPPATH\Views\booking\create.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "idpelanggan"', 'D:\\Rafi Chandra\\Codeigniter4\\barbershop\\app\\Views\\booking\\create.php', 22)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\Rafi Chandra\\Codeigniter4\\barbershop\\app\\Views\\booking\\create.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('booking/create', [], true)
+ 5 APPPATH\Controllers\Booking.php(43): view('booking/create', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Booking->create()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Rafi Chandra\\Codeigniter4\\barbershop\\public\\index.php')
+INFO - 2024-12-23 11:09:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-23 11:09:53 --> ErrorException: Undefined array key "idpelanggan"
+[Method: GET, Route: booking/create]
+in APPPATH\Views\booking\create.php on line 22.
+ 1 APPPATH\Views\booking\create.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "idpelanggan"', 'D:\\Rafi Chandra\\Codeigniter4\\barbershop\\app\\Views\\booking\\create.php', 22)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\Rafi Chandra\\Codeigniter4\\barbershop\\app\\Views\\booking\\create.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('booking/create', [], true)
+ 5 APPPATH\Controllers\Booking.php(43): view('booking/create', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Booking->create()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Rafi Chandra\\Codeigniter4\\barbershop\\public\\index.php')
+INFO - 2024-12-23 11:10:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 11:10:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 11:10:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 11:10:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 11:14:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-23 11:14:09 --> ErrorException: Undefined array key "idpelanggan"
+[Method: GET, Route: booking/create]
+in APPPATH\Views\booking\create.php on line 120.
+ 1 APPPATH\Views\booking\create.php(120): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "idpelanggan"', 'D:\\Rafi Chandra\\Codeigniter4\\barbershop\\app\\Views\\booking\\create.php', 120)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\Rafi Chandra\\Codeigniter4\\barbershop\\app\\Views\\booking\\create.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('booking/create', [], true)
+ 5 APPPATH\Controllers\Booking.php(43): view('booking/create', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Booking->create()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Rafi Chandra\\Codeigniter4\\barbershop\\public\\index.php')
+INFO - 2024-12-23 11:14:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 11:15:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 11:15:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 11:16:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 11:16:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 11:19:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 11:19:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 11:19:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 11:20:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 11:20:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-12-23 11:21:23 --> mysqli_sql_exception: Unknown column 'updated_at' in 'field list' in D:\Rafi Chandra\Codeigniter4\barbershop\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 D:\Rafi Chandra\Codeigniter4\barbershop\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `bo...', 0)
+#1 D:\Rafi Chandra\Codeigniter4\barbershop\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `bo...')
+#2 D:\Rafi Chandra\Codeigniter4\barbershop\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `bo...')
+#3 D:\Rafi Chandra\Codeigniter4\barbershop\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `bo...', Array, false)
+#4 D:\Rafi Chandra\Codeigniter4\barbershop\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\Rafi Chandra\Codeigniter4\barbershop\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 D:\Rafi Chandra\Codeigniter4\barbershop\system\Model.php(802): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\Rafi Chandra\Codeigniter4\barbershop\app\Controllers\Booking.php(76): CodeIgniter\Model->insert(Array)
+#8 D:\Rafi Chandra\Codeigniter4\barbershop\system\CodeIgniter.php(933): App\Controllers\Booking->store()
+#9 D:\Rafi Chandra\Codeigniter4\barbershop\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+#10 D:\Rafi Chandra\Codeigniter4\barbershop\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\Rafi Chandra\Codeigniter4\barbershop\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 D:\Rafi Chandra\Codeigniter4\barbershop\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 D:\Rafi Chandra\Codeigniter4\barbershop\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 D:\Rafi Chandra\Codeigniter4\barbershop\system\rewrite.php(44): require_once('D:\\Rafi Chandra...')
+#15 {main}
+CRITICAL - 2024-12-23 11:21:23 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'updated_at' in 'field list'
+[Method: POST, Route: booking/store]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `booking` (`id_pelanggan`, `id_paket`, `tanggal_booking`, `jam_booking`, `status`, `total_harga`, `created_at`, `updated_at`) VALUES (:id_pelanggan:, :id_paket:, :tanggal_booking:, :jam_booking:, :status:, :total_harga:, :created_at:, :updated_at:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Booking.php(76): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Booking->store()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Rafi Chandra\\Codeigniter4\\barbershop\\public\\index.php')
+CRITICAL - 2024-12-23 11:21:23 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'updated_at' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `booking` (`id_pelanggan`, `id_paket`, `tanggal_booking`, `jam_booking`, `status`, `total_harga`, `created_at`, `updated_at`) VALUES (\'P001\', \'S001\', \'2024-12-23\', \'19:00\', \'pending\', \'40000\', \'2024-12-23 11:21:23\', \'2024-12-23 11:21:23\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `booking` (`id_pelanggan`, `id_paket`, `tanggal_booking`, `jam_booking`, `status`, `total_harga`, `created_at`, `updated_at`) VALUES (\'P001\', \'S001\', \'2024-12-23\', \'19:00\', \'pending\', \'40000\', \'2024-12-23 11:21:23\', \'2024-12-23 11:21:23\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `booking` (`id_pelanggan`, `id_paket`, `tanggal_booking`, `jam_booking`, `status`, `total_harga`, `created_at`, `updated_at`) VALUES (:id_pelanggan:, :id_paket:, :tanggal_booking:, :jam_booking:, :status:, :total_harga:, :created_at:, :updated_at:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\Booking.php(76): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Booking->store()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('D:\\Rafi Chandra\\Codeigniter4\\barbershop\\public\\index.php')
+CRITICAL - 2024-12-23 11:21:23 --> [Caused by] mysqli_sql_exception: Unknown column 'updated_at' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `booking` (`id_pelanggan`, `id_paket`, `tanggal_booking`, `jam_booking`, `status`, `total_harga`, `created_at`, `updated_at`) VALUES (\'P001\', \'S001\', \'2024-12-23\', \'19:00\', \'pending\', \'40000\', \'2024-12-23 11:21:23\', \'2024-12-23 11:21:23\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `booking` (`id_pelanggan`, `id_paket`, `tanggal_booking`, `jam_booking`, `status`, `total_harga`, `created_at`, `updated_at`) VALUES (\'P001\', \'S001\', \'2024-12-23\', \'19:00\', \'pending\', \'40000\', \'2024-12-23 11:21:23\', \'2024-12-23 11:21:23\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `booking` (`id_pelanggan`, `id_paket`, `tanggal_booking`, `jam_booking`, `status`, `total_harga`, `created_at`, `updated_at`) VALUES (\'P001\', \'S001\', \'2024-12-23\', \'19:00\', \'pending\', \'40000\', \'2024-12-23 11:21:23\', \'2024-12-23 11:21:23\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `booking` (`id_pelanggan`, `id_paket`, `tanggal_booking`, `jam_booking`, `status`, `total_harga`, `created_at`, `updated_at`) VALUES (:id_pelanggan:, :id_paket:, :tanggal_booking:, :jam_booking:, :status:, :total_harga:, :created_at:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Booking.php(76): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Booking->store()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('D:\\Rafi Chandra\\Codeigniter4\\barbershop\\public\\index.php')
+INFO - 2024-12-23 11:23:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-23 11:23:05 --> ErrorException: Undefined variable $pelanggan
+[Method: GET, Route: booking]
+in APPPATH\Views\booking\modal.php on line 24.
+ 1 APPPATH\Views\booking\modal.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pelanggan', 'D:\\Rafi Chandra\\Codeigniter4\\barbershop\\app\\Views\\booking\\modal.php', 24)
+ 2 APPPATH\Views\layout\main.php(49): include('D:\\Rafi Chandra\\Codeigniter4\\barbershop\\app\\Views\\booking\\modal.php')
+ 3 SYSTEMPATH\View\View.php(234): include('D:\\Rafi Chandra\\Codeigniter4\\barbershop\\app\\Views\\layout\\main.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\View\View.php(250): CodeIgniter\View\View->render('layout/main', [], true)
+ 6 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('booking/index', [], true)
+ 7 APPPATH\Controllers\Booking.php(32): view('booking/index', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Booking->index()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('D:\\Rafi Chandra\\Codeigniter4\\barbershop\\public\\index.php')
+INFO - 2024-12-23 11:23:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 11:23:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 11:24:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 11:24:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 11:24:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 11:25:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 11:25:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 11:25:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 11:25:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 11:25:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-23 11:27:45 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "profile.php"
+[Method: GET, Route: user/profile]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('profile.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('profile', [], true)
+ 3 APPPATH\Controllers\User.php(68): view('profile')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\User->profile()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\Rafi Chandra\\Codeigniter4\\barbershop\\public\\index.php')
+INFO - 2024-12-23 11:27:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 11:28:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 11:34:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 11:34:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 11:34:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 11:36:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 11:36:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 11:37:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-23 11:42:01 --> ErrorException: Undefined array key "nohp"
+[Method: GET, Route: booking]
+in APPPATH\Views\booking\index.php on line 89.
+ 1 APPPATH\Views\booking\index.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nohp"', 'D:\\Rafi Chandra\\Codeigniter4\\barbershop\\app\\Views\\booking\\index.php', 89)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\Rafi Chandra\\Codeigniter4\\barbershop\\app\\Views\\booking\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('booking/index', [], true)
+ 5 APPPATH\Controllers\Booking.php(32): view('booking/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Booking->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Rafi Chandra\\Codeigniter4\\barbershop\\public\\index.php')
+CRITICAL - 2024-12-23 11:42:40 --> ErrorException: Undefined array key "jenis_paket"
+[Method: GET, Route: booking]
+in APPPATH\Views\booking\index.php on line 92.
+ 1 APPPATH\Views\booking\index.php(92): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "jenis_paket"', 'D:\\Rafi Chandra\\Codeigniter4\\barbershop\\app\\Views\\booking\\index.php', 92)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\Rafi Chandra\\Codeigniter4\\barbershop\\app\\Views\\booking\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('booking/index', [], true)
+ 5 APPPATH\Controllers\Booking.php(32): view('booking/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Booking->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Rafi Chandra\\Codeigniter4\\barbershop\\public\\index.php')
+CRITICAL - 2024-12-23 11:42:50 --> ErrorException: Undefined array key "nohp"
+[Method: GET, Route: booking]
+in APPPATH\Views\booking\index.php on line 89.
+ 1 APPPATH\Views\booking\index.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nohp"', 'D:\\Rafi Chandra\\Codeigniter4\\barbershop\\app\\Views\\booking\\index.php', 89)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\Rafi Chandra\\Codeigniter4\\barbershop\\app\\Views\\booking\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('booking/index', [], true)
+ 5 APPPATH\Controllers\Booking.php(32): view('booking/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Booking->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Rafi Chandra\\Codeigniter4\\barbershop\\public\\index.php')
+INFO - 2024-12-23 11:43:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 11:45:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 11:45:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 11:45:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 11:45:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 11:45:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 11:45:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 11:46:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 11:46:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 11:46:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 11:47:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 12:00:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 12:01:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 12:01:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-12-23 12:01:19 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 6 in D:\Rafi Chandra\Codeigniter4\barbershop\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 D:\Rafi Chandra\Codeigniter4\barbershop\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `booking...', 0)
+#1 D:\Rafi Chandra\Codeigniter4\barbershop\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `booking...')
+#2 D:\Rafi Chandra\Codeigniter4\barbershop\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `booking...')
+#3 D:\Rafi Chandra\Codeigniter4\barbershop\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `booking...', Array, false)
+#4 D:\Rafi Chandra\Codeigniter4\barbershop\app\Models\ModelTransaksi.php(91): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Rafi Chandra\Codeigniter4\barbershop\app\Controllers\Transaksi.php(32): App\Models\ModelTransaksi->getAvailableBookings()
+#6 D:\Rafi Chandra\Codeigniter4\barbershop\system\CodeIgniter.php(933): App\Controllers\Transaksi->create()
+#7 D:\Rafi Chandra\Codeigniter4\barbershop\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+#8 D:\Rafi Chandra\Codeigniter4\barbershop\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Rafi Chandra\Codeigniter4\barbershop\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 D:\Rafi Chandra\Codeigniter4\barbershop\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 D:\Rafi Chandra\Codeigniter4\barbershop\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 D:\Rafi Chandra\Codeigniter4\barbershop\system\rewrite.php(44): require_once('D:\\Rafi Chandra...')
+#13 {main}
+CRITICAL - 2024-12-23 12:01:19 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 6
+[Method: GET, Route: transaksi/create]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `booking`.*, `pelanggan`.`nama` as `nama_pelanggan`, `paket`.`nama_paket`, `paket`.`harga`
+FROM `booking`
+JOIN `pelanggan` ON `pelanggan`.`id_pelanggan` = `booking`.`id_pelanggan`
+JOIN `paket` ON `paket`.`id_paket` = `booking`.`id_paket`
+WHERE `booking`.`status` = :booking.status:
+AND `booking`.`id_booking` NOT IN :booking.id_booking:', [...], false)
+ 2 APPPATH\Models\ModelTransaksi.php(91): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Transaksi.php(32): App\Models\ModelTransaksi->getAvailableBookings()
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Transaksi->create()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\Rafi Chandra\\Codeigniter4\\barbershop\\public\\index.php')
+CRITICAL - 2024-12-23 12:01:19 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 6
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `booking`.*, `pelanggan`.`nama` as `nama_pelanggan`, `paket`.`nama_paket`, `paket`.`harga`
+FROM `booking`
+JOIN `pelanggan` ON `pelanggan`.`id_pelanggan` = `booking`.`id_pelanggan`
+JOIN `paket` ON `paket`.`id_paket` = `booking`.`id_paket`
+WHERE `booking`.`status` = \'completed\'
+AND `booking`.`id_booking` NOT IN ()')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `booking`.*, `pelanggan`.`nama` as `nama_pelanggan`, `paket`.`nama_paket`, `paket`.`harga`
+FROM `booking`
+JOIN `pelanggan` ON `pelanggan`.`id_pelanggan` = `booking`.`id_pelanggan`
+JOIN `paket` ON `paket`.`id_paket` = `booking`.`id_paket`
+WHERE `booking`.`status` = \'completed\'
+AND `booking`.`id_booking` NOT IN ()')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `booking`.*, `pelanggan`.`nama` as `nama_pelanggan`, `paket`.`nama_paket`, `paket`.`harga`
+FROM `booking`
+JOIN `pelanggan` ON `pelanggan`.`id_pelanggan` = `booking`.`id_pelanggan`
+JOIN `paket` ON `paket`.`id_paket` = `booking`.`id_paket`
+WHERE `booking`.`status` = :booking.status:
+AND `booking`.`id_booking` NOT IN :booking.id_booking:', [...], false)
+ 4 APPPATH\Models\ModelTransaksi.php(91): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\Transaksi.php(32): App\Models\ModelTransaksi->getAvailableBookings()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Transaksi->create()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Rafi Chandra\\Codeigniter4\\barbershop\\public\\index.php')
+CRITICAL - 2024-12-23 12:01:19 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 6
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `booking`.*, `pelanggan`.`nama` as `nama_pelanggan`, `paket`.`nama_paket`, `paket`.`harga`
+FROM `booking`
+JOIN `pelanggan` ON `pelanggan`.`id_pelanggan` = `booking`.`id_pelanggan`
+JOIN `paket` ON `paket`.`id_paket` = `booking`.`id_paket`
+WHERE `booking`.`status` = \'completed\'
+AND `booking`.`id_booking` NOT IN ()', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `booking`.*, `pelanggan`.`nama` as `nama_pelanggan`, `paket`.`nama_paket`, `paket`.`harga`
+FROM `booking`
+JOIN `pelanggan` ON `pelanggan`.`id_pelanggan` = `booking`.`id_pelanggan`
+JOIN `paket` ON `paket`.`id_paket` = `booking`.`id_paket`
+WHERE `booking`.`status` = \'completed\'
+AND `booking`.`id_booking` NOT IN ()')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `booking`.*, `pelanggan`.`nama` as `nama_pelanggan`, `paket`.`nama_paket`, `paket`.`harga`
+FROM `booking`
+JOIN `pelanggan` ON `pelanggan`.`id_pelanggan` = `booking`.`id_pelanggan`
+JOIN `paket` ON `paket`.`id_paket` = `booking`.`id_paket`
+WHERE `booking`.`status` = \'completed\'
+AND `booking`.`id_booking` NOT IN ()')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `booking`.*, `pelanggan`.`nama` as `nama_pelanggan`, `paket`.`nama_paket`, `paket`.`harga`
+FROM `booking`
+JOIN `pelanggan` ON `pelanggan`.`id_pelanggan` = `booking`.`id_pelanggan`
+JOIN `paket` ON `paket`.`id_paket` = `booking`.`id_paket`
+WHERE `booking`.`status` = :booking.status:
+AND `booking`.`id_booking` NOT IN :booking.id_booking:', [...], false)
+ 5 APPPATH\Models\ModelTransaksi.php(91): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Transaksi.php(32): App\Models\ModelTransaksi->getAvailableBookings()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Transaksi->create()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('D:\\Rafi Chandra\\Codeigniter4\\barbershop\\public\\index.php')
+INFO - 2024-12-23 12:01:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-12-23 12:01:30 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 6 in D:\Rafi Chandra\Codeigniter4\barbershop\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 D:\Rafi Chandra\Codeigniter4\barbershop\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `booking...', 0)
+#1 D:\Rafi Chandra\Codeigniter4\barbershop\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `booking...')
+#2 D:\Rafi Chandra\Codeigniter4\barbershop\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `booking...')
+#3 D:\Rafi Chandra\Codeigniter4\barbershop\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `booking...', Array, false)
+#4 D:\Rafi Chandra\Codeigniter4\barbershop\app\Models\ModelTransaksi.php(91): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Rafi Chandra\Codeigniter4\barbershop\app\Controllers\Transaksi.php(32): App\Models\ModelTransaksi->getAvailableBookings()
+#6 D:\Rafi Chandra\Codeigniter4\barbershop\system\CodeIgniter.php(933): App\Controllers\Transaksi->create()
+#7 D:\Rafi Chandra\Codeigniter4\barbershop\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+#8 D:\Rafi Chandra\Codeigniter4\barbershop\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Rafi Chandra\Codeigniter4\barbershop\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 D:\Rafi Chandra\Codeigniter4\barbershop\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 D:\Rafi Chandra\Codeigniter4\barbershop\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 D:\Rafi Chandra\Codeigniter4\barbershop\system\rewrite.php(44): require_once('D:\\Rafi Chandra...')
+#13 {main}
+CRITICAL - 2024-12-23 12:01:30 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 6
+[Method: GET, Route: transaksi/create]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `booking`.*, `pelanggan`.`nama` as `nama_pelanggan`, `paket`.`nama_paket`, `paket`.`harga`
+FROM `booking`
+JOIN `pelanggan` ON `pelanggan`.`id_pelanggan` = `booking`.`id_pelanggan`
+JOIN `paket` ON `paket`.`id_paket` = `booking`.`id_paket`
+WHERE `booking`.`status` = :booking.status:
+AND `booking`.`id_booking` NOT IN :booking.id_booking:', [...], false)
+ 2 APPPATH\Models\ModelTransaksi.php(91): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Transaksi.php(32): App\Models\ModelTransaksi->getAvailableBookings()
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Transaksi->create()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\Rafi Chandra\\Codeigniter4\\barbershop\\public\\index.php')
+CRITICAL - 2024-12-23 12:01:30 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 6
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `booking`.*, `pelanggan`.`nama` as `nama_pelanggan`, `paket`.`nama_paket`, `paket`.`harga`
+FROM `booking`
+JOIN `pelanggan` ON `pelanggan`.`id_pelanggan` = `booking`.`id_pelanggan`
+JOIN `paket` ON `paket`.`id_paket` = `booking`.`id_paket`
+WHERE `booking`.`status` = \'completed\'
+AND `booking`.`id_booking` NOT IN ()')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `booking`.*, `pelanggan`.`nama` as `nama_pelanggan`, `paket`.`nama_paket`, `paket`.`harga`
+FROM `booking`
+JOIN `pelanggan` ON `pelanggan`.`id_pelanggan` = `booking`.`id_pelanggan`
+JOIN `paket` ON `paket`.`id_paket` = `booking`.`id_paket`
+WHERE `booking`.`status` = \'completed\'
+AND `booking`.`id_booking` NOT IN ()')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `booking`.*, `pelanggan`.`nama` as `nama_pelanggan`, `paket`.`nama_paket`, `paket`.`harga`
+FROM `booking`
+JOIN `pelanggan` ON `pelanggan`.`id_pelanggan` = `booking`.`id_pelanggan`
+JOIN `paket` ON `paket`.`id_paket` = `booking`.`id_paket`
+WHERE `booking`.`status` = :booking.status:
+AND `booking`.`id_booking` NOT IN :booking.id_booking:', [...], false)
+ 4 APPPATH\Models\ModelTransaksi.php(91): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\Transaksi.php(32): App\Models\ModelTransaksi->getAvailableBookings()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Transaksi->create()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Rafi Chandra\\Codeigniter4\\barbershop\\public\\index.php')
+CRITICAL - 2024-12-23 12:01:30 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 6
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `booking`.*, `pelanggan`.`nama` as `nama_pelanggan`, `paket`.`nama_paket`, `paket`.`harga`
+FROM `booking`
+JOIN `pelanggan` ON `pelanggan`.`id_pelanggan` = `booking`.`id_pelanggan`
+JOIN `paket` ON `paket`.`id_paket` = `booking`.`id_paket`
+WHERE `booking`.`status` = \'completed\'
+AND `booking`.`id_booking` NOT IN ()', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `booking`.*, `pelanggan`.`nama` as `nama_pelanggan`, `paket`.`nama_paket`, `paket`.`harga`
+FROM `booking`
+JOIN `pelanggan` ON `pelanggan`.`id_pelanggan` = `booking`.`id_pelanggan`
+JOIN `paket` ON `paket`.`id_paket` = `booking`.`id_paket`
+WHERE `booking`.`status` = \'completed\'
+AND `booking`.`id_booking` NOT IN ()')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `booking`.*, `pelanggan`.`nama` as `nama_pelanggan`, `paket`.`nama_paket`, `paket`.`harga`
+FROM `booking`
+JOIN `pelanggan` ON `pelanggan`.`id_pelanggan` = `booking`.`id_pelanggan`
+JOIN `paket` ON `paket`.`id_paket` = `booking`.`id_paket`
+WHERE `booking`.`status` = \'completed\'
+AND `booking`.`id_booking` NOT IN ()')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `booking`.*, `pelanggan`.`nama` as `nama_pelanggan`, `paket`.`nama_paket`, `paket`.`harga`
+FROM `booking`
+JOIN `pelanggan` ON `pelanggan`.`id_pelanggan` = `booking`.`id_pelanggan`
+JOIN `paket` ON `paket`.`id_paket` = `booking`.`id_paket`
+WHERE `booking`.`status` = :booking.status:
+AND `booking`.`id_booking` NOT IN :booking.id_booking:', [...], false)
+ 5 APPPATH\Models\ModelTransaksi.php(91): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Transaksi.php(32): App\Models\ModelTransaksi->getAvailableBookings()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Transaksi->create()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('D:\\Rafi Chandra\\Codeigniter4\\barbershop\\public\\index.php')
+INFO - 2024-12-23 12:02:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 12:02:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 12:02:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 12:02:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 12:02:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 12:02:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 12:02:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 12:02:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 12:06:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 12:06:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 12:06:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-23 12:07:02 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "transaksi/show.php"
+[Method: GET, Route: transaksi/show/TRX-202412230001]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('transaksi/show.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('transaksi/show', [], true)
+ 3 APPPATH\Controllers\Transaksi.php(87): view('transaksi/show', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Transaksi->show('TRX-202412230001')
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\Rafi Chandra\\Codeigniter4\\barbershop\\public\\index.php')
+INFO - 2024-12-23 12:07:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 12:07:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 12:07:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 12:09:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 12:09:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 12:09:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 12:09:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-23 12:09:37 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "transaksi/print.php"
+[Method: GET, Route: transaksi/print/TRX-202412230001]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('transaksi/print.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('transaksi/print', [], true)
+ 3 APPPATH\Controllers\Transaksi.php(109): view('transaksi/print', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Transaksi->print('TRX-202412230001')
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\Rafi Chandra\\Codeigniter4\\barbershop\\public\\index.php')
+INFO - 2024-12-23 12:11:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 12:14:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 12:14:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 12:14:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 12:15:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 12:15:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 12:15:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 12:16:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 12:16:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 12:16:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 12:16:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 12:21:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-23 12:21:54 --> ErrorException: Undefined array key "created_at"
+[Method: GET, Route: laporan/pelanggan]
+in APPPATH\Views\laporan\pelanggan.php on line 65.
+ 1 APPPATH\Views\laporan\pelanggan.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "created_at"', 'D:\\Rafi Chandra\\Codeigniter4\\barbershop\\app\\Views\\laporan\\pelanggan.php', 65)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\Rafi Chandra\\Codeigniter4\\barbershop\\app\\Views\\laporan\\pelanggan.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('laporan/pelanggan', [], true)
+ 5 APPPATH\Controllers\Laporan.php(23): view('laporan/pelanggan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Laporan->pelanggan()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Rafi Chandra\\Codeigniter4\\barbershop\\public\\index.php')
+INFO - 2024-12-23 12:22:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-23 12:22:15 --> ErrorException: Undefined array key "created_at"
+[Method: GET, Route: laporan/cetakPelanggan]
+in APPPATH\Controllers\Laporan.php on line 69.
+ 1 APPPATH\Controllers\Laporan.php(69): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "created_at"', 'D:\\Rafi Chandra\\Codeigniter4\\barbershop\\app\\Controllers\\Laporan.php', 69)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Laporan->cetakPelanggan()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\Rafi Chandra\\Codeigniter4\\barbershop\\public\\index.php')
+INFO - 2024-12-23 12:22:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-23 12:22:33 --> ErrorException: Undefined array key "created_at"
+[Method: GET, Route: laporan/cetakPelanggan]
+in APPPATH\Controllers\Laporan.php on line 69.
+ 1 APPPATH\Controllers\Laporan.php(69): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "created_at"', 'D:\\Rafi Chandra\\Codeigniter4\\barbershop\\app\\Controllers\\Laporan.php', 69)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Laporan->cetakPelanggan()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\Rafi Chandra\\Codeigniter4\\barbershop\\public\\index.php')
+INFO - 2024-12-23 12:27:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 12:29:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-23 12:31:08 --> ErrorException: Undefined array key "created_at"
+[Method: GET, Route: laporan/pelanggan]
+in APPPATH\Views\laporan\pelanggan.php on line 98.
+ 1 APPPATH\Views\laporan\pelanggan.php(98): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "created_at"', 'D:\\Rafi Chandra\\Codeigniter4\\barbershop\\app\\Views\\laporan\\pelanggan.php', 98)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\Rafi Chandra\\Codeigniter4\\barbershop\\app\\Views\\laporan\\pelanggan.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('laporan/pelanggan', [], true)
+ 5 APPPATH\Controllers\Laporan.php(23): view('laporan/pelanggan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Laporan->pelanggan()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Rafi Chandra\\Codeigniter4\\barbershop\\public\\index.php')
+INFO - 2024-12-23 12:31:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 12:31:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-23 12:31:48 --> ErrorException: Undefined array key "created_at"
+[Method: GET, Route: laporan/cetakPelanggan]
+in APPPATH\Controllers\Laporan.php on line 107.
+ 1 APPPATH\Controllers\Laporan.php(107): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "created_at"', 'D:\\Rafi Chandra\\Codeigniter4\\barbershop\\app\\Controllers\\Laporan.php', 107)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Laporan->cetakPelanggan()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\Rafi Chandra\\Codeigniter4\\barbershop\\public\\index.php')
+INFO - 2024-12-23 12:32:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 12:35:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 12:35:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-23 12:35:45 --> ErrorException: Undefined array key "deskripsi"
+[Method: GET, Route: laporan/paket]
+in APPPATH\Views\laporan\paket.php on line 109.
+ 1 APPPATH\Views\laporan\paket.php(109): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "deskripsi"', 'D:\\Rafi Chandra\\Codeigniter4\\barbershop\\app\\Views\\laporan\\paket.php', 109)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\Rafi Chandra\\Codeigniter4\\barbershop\\app\\Views\\laporan\\paket.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('laporan/paket', [], true)
+ 5 APPPATH\Controllers\Laporan.php(124): view('laporan/paket', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Laporan->paket()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Rafi Chandra\\Codeigniter4\\barbershop\\public\\index.php')
+INFO - 2024-12-23 12:36:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 12:37:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-23 12:37:08 --> ErrorException: Undefined array key "status"
+[Method: GET, Route: laporan/cetakPaket]
+in APPPATH\Controllers\Laporan.php on line 195.
+ 1 APPPATH\Controllers\Laporan.php(195): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "status"', 'D:\\Rafi Chandra\\Codeigniter4\\barbershop\\app\\Controllers\\Laporan.php', 195)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Laporan->cetakPaket()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\Rafi Chandra\\Codeigniter4\\barbershop\\public\\index.php')
+CRITICAL - 2024-12-23 12:37:50 --> ParseError: Unclosed '{' on line 10
+[Method: GET, Route: laporan/cetakPaket]
+in APPPATH\Controllers\Laporan.php on line 199.
+ 1 SYSTEMPATH\Router\Router.php(563): CodeIgniter\Router\AutoRouter->getRoute('laporan/cetakPaket', 'GET')
+ 2 SYSTEMPATH\Router\Router.php(228): CodeIgniter\Router\Router->autoRoute('laporan/cetakPaket')
+ 3 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('laporan/cetakPaket')
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('D:\\Rafi Chandra\\Codeigniter4\\barbershop\\public\\index.php')
+CRITICAL - 2024-12-23 12:37:53 --> ParseError: Unclosed '{' on line 10
+[Method: GET, Route: laporan/paket]
+in APPPATH\Controllers\Laporan.php on line 199.
+ 1 SYSTEMPATH\Router\Router.php(563): CodeIgniter\Router\AutoRouter->getRoute('laporan/paket', 'GET')
+ 2 SYSTEMPATH\Router\Router.php(228): CodeIgniter\Router\Router->autoRoute('laporan/paket')
+ 3 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('laporan/paket')
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('D:\\Rafi Chandra\\Codeigniter4\\barbershop\\public\\index.php')
+INFO - 2024-12-23 12:38:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-23 12:38:03 --> ErrorException: Undefined array key "status"
+[Method: GET, Route: laporan/cetakPaket]
+in APPPATH\Controllers\Laporan.php on line 194.
+ 1 APPPATH\Controllers\Laporan.php(194): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "status"', 'D:\\Rafi Chandra\\Codeigniter4\\barbershop\\app\\Controllers\\Laporan.php', 194)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Laporan->cetakPaket()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\Rafi Chandra\\Codeigniter4\\barbershop\\public\\index.php')
+CRITICAL - 2024-12-23 12:39:18 --> ErrorException: Undefined array key "status"
+[Method: GET, Route: laporan/cetakPaket]
+in APPPATH\Controllers\Laporan.php on line 211.
+ 1 APPPATH\Controllers\Laporan.php(211): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "status"', 'D:\\Rafi Chandra\\Codeigniter4\\barbershop\\app\\Controllers\\Laporan.php', 211)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Laporan->cetakPaket()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\Rafi Chandra\\Codeigniter4\\barbershop\\public\\index.php')
+INFO - 2024-12-23 12:41:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 12:41:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 12:42:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 12:43:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 12:46:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-23 12:47:01 --> CodeIgniter\Database\Exceptions\DatabaseException: You must set the database table to be used with your query.
+[Method: GET, Route: laporan/karyawan]
+in SYSTEMPATH\Database\BaseConnection.php on line 927.
+ 1 SYSTEMPATH\Model.php(716): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(273): CodeIgniter\Model->builder()
+ 3 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Laporan.php(221): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Laporan->karyawan()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\Rafi Chandra\\Codeigniter4\\barbershop\\public\\index.php')
+CRITICAL - 2024-12-23 12:47:35 --> ErrorException: Undefined array key "nama"
+[Method: GET, Route: laporan/karyawan]
+in APPPATH\Views\laporan\karyawan.php on line 95.
+ 1 APPPATH\Views\laporan\karyawan.php(95): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama"', 'D:\\Rafi Chandra\\Codeigniter4\\barbershop\\app\\Views\\laporan\\karyawan.php', 95)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\Rafi Chandra\\Codeigniter4\\barbershop\\app\\Views\\laporan\\karyawan.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('laporan/karyawan', [], true)
+ 5 APPPATH\Controllers\Laporan.php(223): view('laporan/karyawan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Laporan->karyawan()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Rafi Chandra\\Codeigniter4\\barbershop\\public\\index.php')
+CRITICAL - 2024-12-23 12:47:58 --> ErrorException: Undefined array key "nama"
+[Method: GET, Route: laporan/karyawan]
+in APPPATH\Views\laporan\karyawan.php on line 95.
+ 1 APPPATH\Views\laporan\karyawan.php(95): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama"', 'D:\\Rafi Chandra\\Codeigniter4\\barbershop\\app\\Views\\laporan\\karyawan.php', 95)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\Rafi Chandra\\Codeigniter4\\barbershop\\app\\Views\\laporan\\karyawan.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('laporan/karyawan', [], true)
+ 5 APPPATH\Controllers\Laporan.php(223): view('laporan/karyawan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Laporan->karyawan()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Rafi Chandra\\Codeigniter4\\barbershop\\public\\index.php')
+INFO - 2024-12-23 12:48:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-23 12:48:07 --> ErrorException: Undefined array key "nama"
+[Method: GET, Route: laporan/cetakKaryawan]
+in APPPATH\Controllers\Laporan.php on line 302.
+ 1 APPPATH\Controllers\Laporan.php(302): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama"', 'D:\\Rafi Chandra\\Codeigniter4\\barbershop\\app\\Controllers\\Laporan.php', 302)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Laporan->cetakKaryawan()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\Rafi Chandra\\Codeigniter4\\barbershop\\public\\index.php')
+INFO - 2024-12-23 12:48:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 12:49:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 12:49:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 12:51:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-23 12:53:14 --> ErrorException: Undefined array key "nama"
+[Method: GET, Route: laporan/karyawan]
+in APPPATH\Views\laporan\karyawan.php on line 95.
+ 1 APPPATH\Views\laporan\karyawan.php(95): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama"', 'D:\\Rafi Chandra\\Codeigniter4\\barbershop\\app\\Views\\laporan\\karyawan.php', 95)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\Rafi Chandra\\Codeigniter4\\barbershop\\app\\Views\\laporan\\karyawan.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('laporan/karyawan', [], true)
+ 5 APPPATH\Controllers\Laporan.php(223): view('laporan/karyawan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Laporan->karyawan()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Rafi Chandra\\Codeigniter4\\barbershop\\public\\index.php')
+INFO - 2024-12-23 12:53:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 12:57:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 12:57:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 12:57:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 12:59:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-12-23 13:00:04 --> mysqli_sql_exception: Unknown column 'k.nama' in 'field list' in D:\Rafi Chandra\Codeigniter4\barbershop\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 D:\Rafi Chandra\Codeigniter4\barbershop\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `b`.*, `...', 0)
+#1 D:\Rafi Chandra\Codeigniter4\barbershop\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `b`.*, `...')
+#2 D:\Rafi Chandra\Codeigniter4\barbershop\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `b`.*, `...')
+#3 D:\Rafi Chandra\Codeigniter4\barbershop\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `b`.*, `...', Array, false)
+#4 D:\Rafi Chandra\Codeigniter4\barbershop\app\Controllers\Laporan.php(329): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Rafi Chandra\Codeigniter4\barbershop\system\CodeIgniter.php(933): App\Controllers\Laporan->booking()
+#6 D:\Rafi Chandra\Codeigniter4\barbershop\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#7 D:\Rafi Chandra\Codeigniter4\barbershop\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Rafi Chandra\Codeigniter4\barbershop\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 D:\Rafi Chandra\Codeigniter4\barbershop\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 D:\Rafi Chandra\Codeigniter4\barbershop\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 D:\Rafi Chandra\Codeigniter4\barbershop\system\rewrite.php(44): require_once('D:\\Rafi Chandra...')
+#12 {main}
+CRITICAL - 2024-12-23 13:00:04 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'k.nama' in 'field list'
+[Method: GET, Route: laporan/booking]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `b`.*, `p`.`nama` as `nama_pelanggan`, `pk`.`nama_paket`, `k`.`nama` as `nama_karyawan`
+FROM `booking` `b`
+JOIN `pelanggan` `p` ON `p`.`id_pelanggan` = `b`.`id_pelanggan`
+JOIN `paket` `pk` ON `pk`.`id_paket` = `b`.`id_paket`
+JOIN `karyawan` `k` ON `k`.`id_karyawan` = `b`.`id_karyawan`
+WHERE MONTH(b.tgl_booking) = :MONTH(b.tgl_booking):
+AND YEAR(b.tgl_booking) = :YEAR(b.tgl_booking):
+ORDER BY `b`.`tgl_booking` DESC', [...], false)
+ 2 APPPATH\Controllers\Laporan.php(329): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Laporan->booking()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('D:\\Rafi Chandra\\Codeigniter4\\barbershop\\public\\index.php')
+CRITICAL - 2024-12-23 13:00:04 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'k.nama' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `b`.*, `p`.`nama` as `nama_pelanggan`, `pk`.`nama_paket`, `k`.`nama` as `nama_karyawan`
+FROM `booking` `b`
+JOIN `pelanggan` `p` ON `p`.`id_pelanggan` = `b`.`id_pelanggan`
+JOIN `paket` `pk` ON `pk`.`id_paket` = `b`.`id_paket`
+JOIN `karyawan` `k` ON `k`.`id_karyawan` = `b`.`id_karyawan`
+WHERE MONTH(b.tgl_booking) = \'12\'
+AND YEAR(b.tgl_booking) = \'2024\'
+ORDER BY `b`.`tgl_booking` DESC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `b`.*, `p`.`nama` as `nama_pelanggan`, `pk`.`nama_paket`, `k`.`nama` as `nama_karyawan`
+FROM `booking` `b`
+JOIN `pelanggan` `p` ON `p`.`id_pelanggan` = `b`.`id_pelanggan`
+JOIN `paket` `pk` ON `pk`.`id_paket` = `b`.`id_paket`
+JOIN `karyawan` `k` ON `k`.`id_karyawan` = `b`.`id_karyawan`
+WHERE MONTH(b.tgl_booking) = \'12\'
+AND YEAR(b.tgl_booking) = \'2024\'
+ORDER BY `b`.`tgl_booking` DESC')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `b`.*, `p`.`nama` as `nama_pelanggan`, `pk`.`nama_paket`, `k`.`nama` as `nama_karyawan`
+FROM `booking` `b`
+JOIN `pelanggan` `p` ON `p`.`id_pelanggan` = `b`.`id_pelanggan`
+JOIN `paket` `pk` ON `pk`.`id_paket` = `b`.`id_paket`
+JOIN `karyawan` `k` ON `k`.`id_karyawan` = `b`.`id_karyawan`
+WHERE MONTH(b.tgl_booking) = :MONTH(b.tgl_booking):
+AND YEAR(b.tgl_booking) = :YEAR(b.tgl_booking):
+ORDER BY `b`.`tgl_booking` DESC', [...], false)
+ 4 APPPATH\Controllers\Laporan.php(329): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Laporan->booking()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\Rafi Chandra\\Codeigniter4\\barbershop\\public\\index.php')
+CRITICAL - 2024-12-23 13:00:04 --> [Caused by] mysqli_sql_exception: Unknown column 'k.nama' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `b`.*, `p`.`nama` as `nama_pelanggan`, `pk`.`nama_paket`, `k`.`nama` as `nama_karyawan`
+FROM `booking` `b`
+JOIN `pelanggan` `p` ON `p`.`id_pelanggan` = `b`.`id_pelanggan`
+JOIN `paket` `pk` ON `pk`.`id_paket` = `b`.`id_paket`
+JOIN `karyawan` `k` ON `k`.`id_karyawan` = `b`.`id_karyawan`
+WHERE MONTH(b.tgl_booking) = \'12\'
+AND YEAR(b.tgl_booking) = \'2024\'
+ORDER BY `b`.`tgl_booking` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `b`.*, `p`.`nama` as `nama_pelanggan`, `pk`.`nama_paket`, `k`.`nama` as `nama_karyawan`
+FROM `booking` `b`
+JOIN `pelanggan` `p` ON `p`.`id_pelanggan` = `b`.`id_pelanggan`
+JOIN `paket` `pk` ON `pk`.`id_paket` = `b`.`id_paket`
+JOIN `karyawan` `k` ON `k`.`id_karyawan` = `b`.`id_karyawan`
+WHERE MONTH(b.tgl_booking) = \'12\'
+AND YEAR(b.tgl_booking) = \'2024\'
+ORDER BY `b`.`tgl_booking` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `b`.*, `p`.`nama` as `nama_pelanggan`, `pk`.`nama_paket`, `k`.`nama` as `nama_karyawan`
+FROM `booking` `b`
+JOIN `pelanggan` `p` ON `p`.`id_pelanggan` = `b`.`id_pelanggan`
+JOIN `paket` `pk` ON `pk`.`id_paket` = `b`.`id_paket`
+JOIN `karyawan` `k` ON `k`.`id_karyawan` = `b`.`id_karyawan`
+WHERE MONTH(b.tgl_booking) = \'12\'
+AND YEAR(b.tgl_booking) = \'2024\'
+ORDER BY `b`.`tgl_booking` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `b`.*, `p`.`nama` as `nama_pelanggan`, `pk`.`nama_paket`, `k`.`nama` as `nama_karyawan`
+FROM `booking` `b`
+JOIN `pelanggan` `p` ON `p`.`id_pelanggan` = `b`.`id_pelanggan`
+JOIN `paket` `pk` ON `pk`.`id_paket` = `b`.`id_paket`
+JOIN `karyawan` `k` ON `k`.`id_karyawan` = `b`.`id_karyawan`
+WHERE MONTH(b.tgl_booking) = :MONTH(b.tgl_booking):
+AND YEAR(b.tgl_booking) = :YEAR(b.tgl_booking):
+ORDER BY `b`.`tgl_booking` DESC', [...], false)
+ 5 APPPATH\Controllers\Laporan.php(329): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Laporan->booking()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Rafi Chandra\\Codeigniter4\\barbershop\\public\\index.php')
+ERROR - 2024-12-23 13:03:50 --> mysqli_sql_exception: Unknown column 'b.tgl_booking' in 'where clause' in D:\Rafi Chandra\Codeigniter4\barbershop\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 D:\Rafi Chandra\Codeigniter4\barbershop\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `b`.*, `...', 0)
+#1 D:\Rafi Chandra\Codeigniter4\barbershop\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `b`.*, `...')
+#2 D:\Rafi Chandra\Codeigniter4\barbershop\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `b`.*, `...')
+#3 D:\Rafi Chandra\Codeigniter4\barbershop\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `b`.*, `...', Array, false)
+#4 D:\Rafi Chandra\Codeigniter4\barbershop\app\Controllers\Laporan.php(328): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Rafi Chandra\Codeigniter4\barbershop\system\CodeIgniter.php(933): App\Controllers\Laporan->booking()
+#6 D:\Rafi Chandra\Codeigniter4\barbershop\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#7 D:\Rafi Chandra\Codeigniter4\barbershop\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Rafi Chandra\Codeigniter4\barbershop\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 D:\Rafi Chandra\Codeigniter4\barbershop\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 D:\Rafi Chandra\Codeigniter4\barbershop\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 D:\Rafi Chandra\Codeigniter4\barbershop\system\rewrite.php(44): require_once('D:\\Rafi Chandra...')
+#12 {main}
+CRITICAL - 2024-12-23 13:03:50 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'b.tgl_booking' in 'where clause'
+[Method: GET, Route: laporan/booking]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `b`.*, `p`.`nama` as `nama_pelanggan`, `pk`.`nama_paket`
+FROM `booking` `b`
+JOIN `pelanggan` `p` ON `p`.`id_pelanggan` = `b`.`id_pelanggan`
+JOIN `paket` `pk` ON `pk`.`id_paket` = `b`.`id_paket`
+WHERE MONTH(b.tgl_booking) = :MONTH(b.tgl_booking):
+AND YEAR(b.tgl_booking) = :YEAR(b.tgl_booking):
+ORDER BY `b`.`tgl_booking` DESC', [...], false)
+ 2 APPPATH\Controllers\Laporan.php(328): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Laporan->booking()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('D:\\Rafi Chandra\\Codeigniter4\\barbershop\\public\\index.php')
+CRITICAL - 2024-12-23 13:03:50 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'b.tgl_booking' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `b`.*, `p`.`nama` as `nama_pelanggan`, `pk`.`nama_paket`
+FROM `booking` `b`
+JOIN `pelanggan` `p` ON `p`.`id_pelanggan` = `b`.`id_pelanggan`
+JOIN `paket` `pk` ON `pk`.`id_paket` = `b`.`id_paket`
+WHERE MONTH(b.tgl_booking) = \'12\'
+AND YEAR(b.tgl_booking) = \'2024\'
+ORDER BY `b`.`tgl_booking` DESC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `b`.*, `p`.`nama` as `nama_pelanggan`, `pk`.`nama_paket`
+FROM `booking` `b`
+JOIN `pelanggan` `p` ON `p`.`id_pelanggan` = `b`.`id_pelanggan`
+JOIN `paket` `pk` ON `pk`.`id_paket` = `b`.`id_paket`
+WHERE MONTH(b.tgl_booking) = \'12\'
+AND YEAR(b.tgl_booking) = \'2024\'
+ORDER BY `b`.`tgl_booking` DESC')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `b`.*, `p`.`nama` as `nama_pelanggan`, `pk`.`nama_paket`
+FROM `booking` `b`
+JOIN `pelanggan` `p` ON `p`.`id_pelanggan` = `b`.`id_pelanggan`
+JOIN `paket` `pk` ON `pk`.`id_paket` = `b`.`id_paket`
+WHERE MONTH(b.tgl_booking) = :MONTH(b.tgl_booking):
+AND YEAR(b.tgl_booking) = :YEAR(b.tgl_booking):
+ORDER BY `b`.`tgl_booking` DESC', [...], false)
+ 4 APPPATH\Controllers\Laporan.php(328): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Laporan->booking()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\Rafi Chandra\\Codeigniter4\\barbershop\\public\\index.php')
+CRITICAL - 2024-12-23 13:03:50 --> [Caused by] mysqli_sql_exception: Unknown column 'b.tgl_booking' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `b`.*, `p`.`nama` as `nama_pelanggan`, `pk`.`nama_paket`
+FROM `booking` `b`
+JOIN `pelanggan` `p` ON `p`.`id_pelanggan` = `b`.`id_pelanggan`
+JOIN `paket` `pk` ON `pk`.`id_paket` = `b`.`id_paket`
+WHERE MONTH(b.tgl_booking) = \'12\'
+AND YEAR(b.tgl_booking) = \'2024\'
+ORDER BY `b`.`tgl_booking` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `b`.*, `p`.`nama` as `nama_pelanggan`, `pk`.`nama_paket`
+FROM `booking` `b`
+JOIN `pelanggan` `p` ON `p`.`id_pelanggan` = `b`.`id_pelanggan`
+JOIN `paket` `pk` ON `pk`.`id_paket` = `b`.`id_paket`
+WHERE MONTH(b.tgl_booking) = \'12\'
+AND YEAR(b.tgl_booking) = \'2024\'
+ORDER BY `b`.`tgl_booking` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `b`.*, `p`.`nama` as `nama_pelanggan`, `pk`.`nama_paket`
+FROM `booking` `b`
+JOIN `pelanggan` `p` ON `p`.`id_pelanggan` = `b`.`id_pelanggan`
+JOIN `paket` `pk` ON `pk`.`id_paket` = `b`.`id_paket`
+WHERE MONTH(b.tgl_booking) = \'12\'
+AND YEAR(b.tgl_booking) = \'2024\'
+ORDER BY `b`.`tgl_booking` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `b`.*, `p`.`nama` as `nama_pelanggan`, `pk`.`nama_paket`
+FROM `booking` `b`
+JOIN `pelanggan` `p` ON `p`.`id_pelanggan` = `b`.`id_pelanggan`
+JOIN `paket` `pk` ON `pk`.`id_paket` = `b`.`id_paket`
+WHERE MONTH(b.tgl_booking) = :MONTH(b.tgl_booking):
+AND YEAR(b.tgl_booking) = :YEAR(b.tgl_booking):
+ORDER BY `b`.`tgl_booking` DESC', [...], false)
+ 5 APPPATH\Controllers\Laporan.php(328): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Laporan->booking()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Rafi Chandra\\Codeigniter4\\barbershop\\public\\index.php')
+CRITICAL - 2024-12-23 13:04:32 --> ErrorException: Undefined array key "tgl_booking"
+[Method: GET, Route: laporan/booking]
+in APPPATH\Views\laporan\booking.php on line 89.
+ 1 APPPATH\Views\laporan\booking.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tgl_booking"', 'D:\\Rafi Chandra\\Codeigniter4\\barbershop\\app\\Views\\laporan\\booking.php', 89)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\Rafi Chandra\\Codeigniter4\\barbershop\\app\\Views\\laporan\\booking.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('laporan/booking', [], true)
+ 5 APPPATH\Controllers\Laporan.php(331): view('laporan/booking', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Laporan->booking()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Rafi Chandra\\Codeigniter4\\barbershop\\public\\index.php')
+INFO - 2024-12-23 13:04:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 13:05:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-23 13:05:08 --> ErrorException: Undefined array key "tgl_booking"
+[Method: GET, Route: laporan/cetakBooking]
+in APPPATH\Controllers\Laporan.php on line 425.
+ 1 APPPATH\Controllers\Laporan.php(425): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tgl_booking"', 'D:\\Rafi Chandra\\Codeigniter4\\barbershop\\app\\Controllers\\Laporan.php', 425)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Laporan->cetakBooking()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\Rafi Chandra\\Codeigniter4\\barbershop\\public\\index.php')
+INFO - 2024-12-23 13:05:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 13:08:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-12-23 13:08:06 --> mysqli_sql_exception: Unknown column 't.tgl_transaksi' in 'where clause' in D:\Rafi Chandra\Codeigniter4\barbershop\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 D:\Rafi Chandra\Codeigniter4\barbershop\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `t`.*, `...', 0)
+#1 D:\Rafi Chandra\Codeigniter4\barbershop\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `t`.*, `...')
+#2 D:\Rafi Chandra\Codeigniter4\barbershop\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `t`.*, `...')
+#3 D:\Rafi Chandra\Codeigniter4\barbershop\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `t`.*, `...', Array, false)
+#4 D:\Rafi Chandra\Codeigniter4\barbershop\app\Controllers\Laporan.php(451): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Rafi Chandra\Codeigniter4\barbershop\system\CodeIgniter.php(933): App\Controllers\Laporan->transaksi()
+#6 D:\Rafi Chandra\Codeigniter4\barbershop\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#7 D:\Rafi Chandra\Codeigniter4\barbershop\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Rafi Chandra\Codeigniter4\barbershop\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 D:\Rafi Chandra\Codeigniter4\barbershop\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 D:\Rafi Chandra\Codeigniter4\barbershop\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 D:\Rafi Chandra\Codeigniter4\barbershop\system\rewrite.php(44): require_once('D:\\Rafi Chandra...')
+#12 {main}
+CRITICAL - 2024-12-23 13:08:06 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 't.tgl_transaksi' in 'where clause'
+[Method: GET, Route: laporan/transaksi]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `t`.*, `b`.`id_booking`, `p`.`nama` as `nama_pelanggan`, `pk`.`nama_paket`
+FROM `transaksi` `t`
+JOIN `booking` `b` ON `b`.`id_booking` = `t`.`id_booking`
+JOIN `pelanggan` `p` ON `p`.`id_pelanggan` = `b`.`id_pelanggan`
+JOIN `paket` `pk` ON `pk`.`id_paket` = `b`.`id_paket`
+WHERE MONTH(t.tgl_transaksi) = :MONTH(t.tgl_transaksi):
+AND YEAR(t.tgl_transaksi) = :YEAR(t.tgl_transaksi):
+ORDER BY `t`.`tgl_transaksi` DESC', [...], false)
+ 2 APPPATH\Controllers\Laporan.php(451): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Laporan->transaksi()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('D:\\Rafi Chandra\\Codeigniter4\\barbershop\\public\\index.php')
+CRITICAL - 2024-12-23 13:08:06 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 't.tgl_transaksi' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `t`.*, `b`.`id_booking`, `p`.`nama` as `nama_pelanggan`, `pk`.`nama_paket`
+FROM `transaksi` `t`
+JOIN `booking` `b` ON `b`.`id_booking` = `t`.`id_booking`
+JOIN `pelanggan` `p` ON `p`.`id_pelanggan` = `b`.`id_pelanggan`
+JOIN `paket` `pk` ON `pk`.`id_paket` = `b`.`id_paket`
+WHERE MONTH(t.tgl_transaksi) = \'12\'
+AND YEAR(t.tgl_transaksi) = \'2024\'
+ORDER BY `t`.`tgl_transaksi` DESC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `t`.*, `b`.`id_booking`, `p`.`nama` as `nama_pelanggan`, `pk`.`nama_paket`
+FROM `transaksi` `t`
+JOIN `booking` `b` ON `b`.`id_booking` = `t`.`id_booking`
+JOIN `pelanggan` `p` ON `p`.`id_pelanggan` = `b`.`id_pelanggan`
+JOIN `paket` `pk` ON `pk`.`id_paket` = `b`.`id_paket`
+WHERE MONTH(t.tgl_transaksi) = \'12\'
+AND YEAR(t.tgl_transaksi) = \'2024\'
+ORDER BY `t`.`tgl_transaksi` DESC')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `t`.*, `b`.`id_booking`, `p`.`nama` as `nama_pelanggan`, `pk`.`nama_paket`
+FROM `transaksi` `t`
+JOIN `booking` `b` ON `b`.`id_booking` = `t`.`id_booking`
+JOIN `pelanggan` `p` ON `p`.`id_pelanggan` = `b`.`id_pelanggan`
+JOIN `paket` `pk` ON `pk`.`id_paket` = `b`.`id_paket`
+WHERE MONTH(t.tgl_transaksi) = :MONTH(t.tgl_transaksi):
+AND YEAR(t.tgl_transaksi) = :YEAR(t.tgl_transaksi):
+ORDER BY `t`.`tgl_transaksi` DESC', [...], false)
+ 4 APPPATH\Controllers\Laporan.php(451): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Laporan->transaksi()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\Rafi Chandra\\Codeigniter4\\barbershop\\public\\index.php')
+CRITICAL - 2024-12-23 13:08:06 --> [Caused by] mysqli_sql_exception: Unknown column 't.tgl_transaksi' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `t`.*, `b`.`id_booking`, `p`.`nama` as `nama_pelanggan`, `pk`.`nama_paket`
+FROM `transaksi` `t`
+JOIN `booking` `b` ON `b`.`id_booking` = `t`.`id_booking`
+JOIN `pelanggan` `p` ON `p`.`id_pelanggan` = `b`.`id_pelanggan`
+JOIN `paket` `pk` ON `pk`.`id_paket` = `b`.`id_paket`
+WHERE MONTH(t.tgl_transaksi) = \'12\'
+AND YEAR(t.tgl_transaksi) = \'2024\'
+ORDER BY `t`.`tgl_transaksi` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `t`.*, `b`.`id_booking`, `p`.`nama` as `nama_pelanggan`, `pk`.`nama_paket`
+FROM `transaksi` `t`
+JOIN `booking` `b` ON `b`.`id_booking` = `t`.`id_booking`
+JOIN `pelanggan` `p` ON `p`.`id_pelanggan` = `b`.`id_pelanggan`
+JOIN `paket` `pk` ON `pk`.`id_paket` = `b`.`id_paket`
+WHERE MONTH(t.tgl_transaksi) = \'12\'
+AND YEAR(t.tgl_transaksi) = \'2024\'
+ORDER BY `t`.`tgl_transaksi` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `t`.*, `b`.`id_booking`, `p`.`nama` as `nama_pelanggan`, `pk`.`nama_paket`
+FROM `transaksi` `t`
+JOIN `booking` `b` ON `b`.`id_booking` = `t`.`id_booking`
+JOIN `pelanggan` `p` ON `p`.`id_pelanggan` = `b`.`id_pelanggan`
+JOIN `paket` `pk` ON `pk`.`id_paket` = `b`.`id_paket`
+WHERE MONTH(t.tgl_transaksi) = \'12\'
+AND YEAR(t.tgl_transaksi) = \'2024\'
+ORDER BY `t`.`tgl_transaksi` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `t`.*, `b`.`id_booking`, `p`.`nama` as `nama_pelanggan`, `pk`.`nama_paket`
+FROM `transaksi` `t`
+JOIN `booking` `b` ON `b`.`id_booking` = `t`.`id_booking`
+JOIN `pelanggan` `p` ON `p`.`id_pelanggan` = `b`.`id_pelanggan`
+JOIN `paket` `pk` ON `pk`.`id_paket` = `b`.`id_paket`
+WHERE MONTH(t.tgl_transaksi) = :MONTH(t.tgl_transaksi):
+AND YEAR(t.tgl_transaksi) = :YEAR(t.tgl_transaksi):
+ORDER BY `t`.`tgl_transaksi` DESC', [...], false)
+ 5 APPPATH\Controllers\Laporan.php(451): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Laporan->transaksi()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Rafi Chandra\\Codeigniter4\\barbershop\\public\\index.php')
+CRITICAL - 2024-12-23 13:08:56 --> ErrorException: Undefined array key "total"
+[Method: GET, Route: laporan/transaksi]
+in APPPATH\Views\laporan\transaksi.php on line 81.
+ 1 APPPATH\Views\laporan\transaksi.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "total"', 'D:\\Rafi Chandra\\Codeigniter4\\barbershop\\app\\Views\\laporan\\transaksi.php', 81)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\Rafi Chandra\\Codeigniter4\\barbershop\\app\\Views\\laporan\\transaksi.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('laporan/transaksi', [], true)
+ 5 APPPATH\Controllers\Laporan.php(454): view('laporan/transaksi', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Laporan->transaksi()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Rafi Chandra\\Codeigniter4\\barbershop\\public\\index.php')
+ERROR - 2024-12-23 13:10:50 --> mysqli_sql_exception: Unknown column 't.tgl_transaksi' in 'where clause' in D:\Rafi Chandra\Codeigniter4\barbershop\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 D:\Rafi Chandra\Codeigniter4\barbershop\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `t`.*, `...', 0)
+#1 D:\Rafi Chandra\Codeigniter4\barbershop\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `t`.*, `...')
+#2 D:\Rafi Chandra\Codeigniter4\barbershop\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `t`.*, `...')
+#3 D:\Rafi Chandra\Codeigniter4\barbershop\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `t`.*, `...', Array, false)
+#4 D:\Rafi Chandra\Codeigniter4\barbershop\app\Controllers\Laporan.php(451): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Rafi Chandra\Codeigniter4\barbershop\system\CodeIgniter.php(933): App\Controllers\Laporan->transaksi()
+#6 D:\Rafi Chandra\Codeigniter4\barbershop\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#7 D:\Rafi Chandra\Codeigniter4\barbershop\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Rafi Chandra\Codeigniter4\barbershop\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 D:\Rafi Chandra\Codeigniter4\barbershop\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 D:\Rafi Chandra\Codeigniter4\barbershop\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 D:\Rafi Chandra\Codeigniter4\barbershop\system\rewrite.php(44): require_once('D:\\Rafi Chandra...')
+#12 {main}
+CRITICAL - 2024-12-23 13:10:50 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 't.tgl_transaksi' in 'where clause'
+[Method: GET, Route: laporan/transaksi]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `t`.*, `b`.`id_booking`, `p`.`nama` as `nama_pelanggan`, `pk`.`nama_paket`, `pk`.`harga` as `total`
+FROM `transaksi` `t`
+JOIN `booking` `b` ON `b`.`id_booking` = `t`.`id_booking`
+JOIN `pelanggan` `p` ON `p`.`id_pelanggan` = `b`.`id_pelanggan`
+JOIN `paket` `pk` ON `pk`.`id_paket` = `b`.`id_paket`
+WHERE MONTH(t.tgl_transaksi) = :MONTH(t.tgl_transaksi):
+AND YEAR(t.tgl_transaksi) = :YEAR(t.tgl_transaksi):
+ORDER BY `t`.`tgl_transaksi` DESC', [...], false)
+ 2 APPPATH\Controllers\Laporan.php(451): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Laporan->transaksi()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('D:\\Rafi Chandra\\Codeigniter4\\barbershop\\public\\index.php')
+CRITICAL - 2024-12-23 13:10:50 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 't.tgl_transaksi' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `t`.*, `b`.`id_booking`, `p`.`nama` as `nama_pelanggan`, `pk`.`nama_paket`, `pk`.`harga` as `total`
+FROM `transaksi` `t`
+JOIN `booking` `b` ON `b`.`id_booking` = `t`.`id_booking`
+JOIN `pelanggan` `p` ON `p`.`id_pelanggan` = `b`.`id_pelanggan`
+JOIN `paket` `pk` ON `pk`.`id_paket` = `b`.`id_paket`
+WHERE MONTH(t.tgl_transaksi) = \'12\'
+AND YEAR(t.tgl_transaksi) = \'2024\'
+ORDER BY `t`.`tgl_transaksi` DESC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `t`.*, `b`.`id_booking`, `p`.`nama` as `nama_pelanggan`, `pk`.`nama_paket`, `pk`.`harga` as `total`
+FROM `transaksi` `t`
+JOIN `booking` `b` ON `b`.`id_booking` = `t`.`id_booking`
+JOIN `pelanggan` `p` ON `p`.`id_pelanggan` = `b`.`id_pelanggan`
+JOIN `paket` `pk` ON `pk`.`id_paket` = `b`.`id_paket`
+WHERE MONTH(t.tgl_transaksi) = \'12\'
+AND YEAR(t.tgl_transaksi) = \'2024\'
+ORDER BY `t`.`tgl_transaksi` DESC')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `t`.*, `b`.`id_booking`, `p`.`nama` as `nama_pelanggan`, `pk`.`nama_paket`, `pk`.`harga` as `total`
+FROM `transaksi` `t`
+JOIN `booking` `b` ON `b`.`id_booking` = `t`.`id_booking`
+JOIN `pelanggan` `p` ON `p`.`id_pelanggan` = `b`.`id_pelanggan`
+JOIN `paket` `pk` ON `pk`.`id_paket` = `b`.`id_paket`
+WHERE MONTH(t.tgl_transaksi) = :MONTH(t.tgl_transaksi):
+AND YEAR(t.tgl_transaksi) = :YEAR(t.tgl_transaksi):
+ORDER BY `t`.`tgl_transaksi` DESC', [...], false)
+ 4 APPPATH\Controllers\Laporan.php(451): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Laporan->transaksi()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\Rafi Chandra\\Codeigniter4\\barbershop\\public\\index.php')
+CRITICAL - 2024-12-23 13:10:50 --> [Caused by] mysqli_sql_exception: Unknown column 't.tgl_transaksi' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `t`.*, `b`.`id_booking`, `p`.`nama` as `nama_pelanggan`, `pk`.`nama_paket`, `pk`.`harga` as `total`
+FROM `transaksi` `t`
+JOIN `booking` `b` ON `b`.`id_booking` = `t`.`id_booking`
+JOIN `pelanggan` `p` ON `p`.`id_pelanggan` = `b`.`id_pelanggan`
+JOIN `paket` `pk` ON `pk`.`id_paket` = `b`.`id_paket`
+WHERE MONTH(t.tgl_transaksi) = \'12\'
+AND YEAR(t.tgl_transaksi) = \'2024\'
+ORDER BY `t`.`tgl_transaksi` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `t`.*, `b`.`id_booking`, `p`.`nama` as `nama_pelanggan`, `pk`.`nama_paket`, `pk`.`harga` as `total`
+FROM `transaksi` `t`
+JOIN `booking` `b` ON `b`.`id_booking` = `t`.`id_booking`
+JOIN `pelanggan` `p` ON `p`.`id_pelanggan` = `b`.`id_pelanggan`
+JOIN `paket` `pk` ON `pk`.`id_paket` = `b`.`id_paket`
+WHERE MONTH(t.tgl_transaksi) = \'12\'
+AND YEAR(t.tgl_transaksi) = \'2024\'
+ORDER BY `t`.`tgl_transaksi` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `t`.*, `b`.`id_booking`, `p`.`nama` as `nama_pelanggan`, `pk`.`nama_paket`, `pk`.`harga` as `total`
+FROM `transaksi` `t`
+JOIN `booking` `b` ON `b`.`id_booking` = `t`.`id_booking`
+JOIN `pelanggan` `p` ON `p`.`id_pelanggan` = `b`.`id_pelanggan`
+JOIN `paket` `pk` ON `pk`.`id_paket` = `b`.`id_paket`
+WHERE MONTH(t.tgl_transaksi) = \'12\'
+AND YEAR(t.tgl_transaksi) = \'2024\'
+ORDER BY `t`.`tgl_transaksi` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `t`.*, `b`.`id_booking`, `p`.`nama` as `nama_pelanggan`, `pk`.`nama_paket`, `pk`.`harga` as `total`
+FROM `transaksi` `t`
+JOIN `booking` `b` ON `b`.`id_booking` = `t`.`id_booking`
+JOIN `pelanggan` `p` ON `p`.`id_pelanggan` = `b`.`id_pelanggan`
+JOIN `paket` `pk` ON `pk`.`id_paket` = `b`.`id_paket`
+WHERE MONTH(t.tgl_transaksi) = :MONTH(t.tgl_transaksi):
+AND YEAR(t.tgl_transaksi) = :YEAR(t.tgl_transaksi):
+ORDER BY `t`.`tgl_transaksi` DESC', [...], false)
+ 5 APPPATH\Controllers\Laporan.php(451): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Laporan->transaksi()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Rafi Chandra\\Codeigniter4\\barbershop\\public\\index.php')
+INFO - 2024-12-23 13:11:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 13:11:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 13:11:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

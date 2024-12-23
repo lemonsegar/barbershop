@@ -46,7 +46,7 @@ class Pelanggan extends BaseController
         $model = new ModelPelanggan();
         $id = $this->request->getpost('deleteId');
         $model->deletPelanggan($id);
-        return redirect()->to('/pelanggan/index');
+        return redirect()->to('/pelanggan');
     }
 
     function update()
@@ -60,7 +60,7 @@ class Pelanggan extends BaseController
             'nohp'       => $this->request->getPost('nohp'),
     );
     $model->updatepelanggan($data, $id);
-    return redirect()->to('/pelanggan/index');
+    return redirect()->to('/pelanggan');
 }
 }
 ?>

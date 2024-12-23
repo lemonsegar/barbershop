@@ -47,7 +47,7 @@ class Paket extends BaseController
         $model = new ModelPaket();
         $id = $this->request->getpost('deleteId');
         $model->deletpaket($id);
-        return redirect()->to('/paket/index');
+        return redirect()->to('/paket');
     }
 
     function update()
@@ -61,6 +61,6 @@ class Paket extends BaseController
             'harga' => $this->request->getPost('harga'),
         );
         $model->updatepaket($data, $id);
-        return redirect()->to('/paket/index');
+        return redirect()->to('/paket');
     }
 }

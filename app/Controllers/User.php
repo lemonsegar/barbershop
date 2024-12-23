@@ -46,7 +46,7 @@ class User extends BaseController
     $model = new Modeluser();
     $id = $this->request->getPost('id');
     $model->deleteuser($id);
-    return redirect()->to('/user/index');
+    return redirect()->to('/user');
     }
 
     function update()
@@ -60,7 +60,7 @@ class User extends BaseController
         'level' => $this->request->getPost('level'),
     );
     $model->updateuser($data, $id);
-    return redirect()->to('/user/index');
+    return redirect()->to('/user');
     }
 
     public function profile()
